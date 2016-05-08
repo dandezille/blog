@@ -18,7 +18,7 @@ and you can have routes for specific HTTP methods:
 
 ~~~ruby
 Rails.application.routes.draw do
-  get 'controller/action'
+  get 'controller#action'
 end
 ~~~
 
