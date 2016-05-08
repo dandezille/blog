@@ -2,23 +2,20 @@
 layout: default
 ---
 
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list-item">
+  <div class="post-list-item-header">
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li class="post-list-item">
-    <div class="post-list-item-header">
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
-    <div class="post-list-item-excerpt">
-      {{post.excerpt}}
-    </div>
-    <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-    </li>
-    {% endfor %}
-  </ul>
-
-
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+  <div class="post-list-item-excerpt">
+    {{post.excerpt}}
+  </div>
+  <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+  </li>
+  {% endfor %}
+</ul>
