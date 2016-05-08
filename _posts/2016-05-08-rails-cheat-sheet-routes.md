@@ -6,7 +6,7 @@ title: "Rails Cheat Sheet - Routes"
 Having yet again just been through Michael Hartl's [Ruby on Rails Tutorial](www.railstutorial.org) I've finally got around to putting together some notes for myself, for those moments when my brain is short on RAM and doesn't feel like paging. This first set are on routes, more to follow.
 
 # Routes
-To print out the current app's routes, use `rake routes`. Now let's start with the most basic route, the root route:
+To print out the current app's routes, use `rake routes`. Now let's start with the most basic route, the root route which corresponds to / in your application:
 
 ~~~ruby
 Rails.application.routes.draw do
