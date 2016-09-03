@@ -8,6 +8,13 @@ little more deeply. Well that's not gone too well so far! The way I see it, I ha
 I seem to be able to muster in coordination...
 
 I thought I'd put into writing the topics I actually find interesting and would like to know more about, then when I'm feeling like
-I don't know what to work on, I can just refer back.
+I don't know what to work on, I can just refer back:
 
-
+- Machine learning & statistics
+- Ruby and Rails
+- Go
+- F#
+- Parsers and compilers
+- Testing techniques
+- Software patterns
+- Functional programming
