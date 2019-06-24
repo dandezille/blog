@@ -7,7 +7,7 @@ I wanted a dynamic DNS entry to point at my home IP address but already pay for 
 
 A bit of googling reveals a [couple](https://support.dnsimple.com/articles/dynamic-dns/) of [pages](https://developer.dnsimple.com/ddns/) from DNSimple themselves explaining how to get things working. They do not support 3rd party dyndns APIs but their API allows the same functionality using a reasonably simple script:
 
-~~~
+~~~bash
 #!/bin/bash
 
 TOKEN="your-oauth-token"  # The API v2 OAuth token
@@ -34,7 +34,7 @@ GET /:account/zones/:zone/records?name=:name
 
 It would be nice to automate this. The API returns a bunch of json data about the record but we only care about the id so the output is piped to the super handy [jq](https://stedolan.github.io/jq/) to just return the id:
 
-~~~
+~~~bash
 #!/bin/sh
 
 # Check required variables have been set
