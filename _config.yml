@@ -8,8 +8,7 @@
 # Site settings
 title: Dan de Zille
 email: dan@ddez.net
-description: > # this means to ignore newlines until "baseurl:"
-  This is the personal site of all round geek Dan de Zille
+description: Father, Racer, Engineer, Baker
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dandezille.github.io" # the base hostname & protocol for your site
 github_username:  dandezille
