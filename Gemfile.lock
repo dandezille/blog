@@ -242,9 +242,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-seo-tag
-  jekyll-sitemap
+  github-pages (= 198)
+  jekyll-seo-tag (= 2.5.0)
+  jekyll-sitemap (= 1.2.0)
 
 BUNDLED WITH
    1.17.3
