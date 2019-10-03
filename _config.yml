@@ -10,7 +10,7 @@ title: Dan de Zille
 email: dan@ddez.net
 description: Father, Racer, Engineer, Baker
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dandezille.github.io" # the base hostname & protocol for your site
+url: "https://dandezille.github.io" # the base hostname & protocol for your site
 github_username:  dandezille
 
 # Build settings
